@@ -70,9 +70,44 @@ p {
   background-color: blue;
 }
 
-
+.empty5 {
+  display: flex;
+  flex: 1;
+  order: 1;
+}
 
 .red5 {
-  width: 80px;
+  margin: 15px;
+  width: 30px;
+  height: 30px;
   background-color: red;
+  order: 2;
 }
+
+.empty6 {
+  display: flex;
+  flex: 1;
+  order: 3;
+}
+
+
+.empty7 {
+  display: flex;
+  flex: 1;
+  order: 1;
+  background: red;
+}
+
+.blue6 {
+  background: blue;
+  width: 80px;
+  order: 2;
+}
+
+.empty8 {
+  display: flex;
+  flex: 1;
+  order: 3;
+  background: red;
+}
+/* TODO: Add CSS for the rest of your solution below */
